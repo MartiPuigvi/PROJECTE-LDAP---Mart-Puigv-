@@ -1,0 +1,19 @@
+dn: ou=grups,dc=marti,dc=com
+objectClass: organizationalUnit
+ou: grups
+
+dn: cn=asix,ou=grups,dc=marti,dc=com
+objectClass: posixGroup
+cn: asix
+gidNumber: 5001
+memberUid: marti
+memberUid: nico
+memberUid: alan
+
+dn: cn=smx,ou=grups,dc=marti,dc=com
+objectClass: posixGroup
+cn: smx
+gidNumber: 5002
+memberUid: roger
+memberUid: joaquin
+memberUid: jhensen

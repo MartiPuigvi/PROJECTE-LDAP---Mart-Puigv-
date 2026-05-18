@@ -1,0 +1,45 @@
+dn: ou=usuaris,dc=marti,dc=com
+objectClass: organizationalUnit
+ou: usuaris
+
+dn: cn=marti,ou=usuaris,dc=marti,dc=com
+objectClass: inetOrgPerson
+cn: marti
+sn: Marti
+userPassword: 1234
+uid: marti
+
+dn: cn=nico,ou=usuaris,dc=marti,dc=com
+objectClass: inetOrgPerson
+cn: nico
+sn: Nico
+userPassword: 1234
+uid: nico
+
+dn: cn=alan,ou=usuaris,dc=marti,dc=com
+objectClass: inetOrgPerson
+cn: alan
+sn: Alan
+userPassword: 1234
+uid: alan
+
+dn: cn=roger,ou=usuaris,dc=marti,dc=com
+objectClass: inetOrgPerson
+cn: roger
+sn: Roger
+userPassword: 1234
+uid: roger
+
+dn: cn=joaquin,ou=usuaris,dc=marti,dc=com
+objectClass: inetOrgPerson
+cn: joaquin
+sn: Joaquin
+userPassword: 1234
+uid: joaquin
+
+dn: cn=jhensen,ou=usuaris,dc=marti,dc=com
+objectClass: inetOrgPerson
+cn: jhensen
+sn: Jhensen
+userPassword: 1234
+uid: jhensen
